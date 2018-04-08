@@ -4,10 +4,10 @@ import speech_recognition as sr
  
 # get audio from the microphone                                                                       
 r = sr.Recognizer()
-#r.dynamic_energy_threshold = True # type: bool
-#r.dynamic_energy_adjustment_damping = 0.15 # type: float
-#r.dynamic_energy_adjustment_ratio = 1.5 # type: float
-#r.pause_threshold = 0.8 # type: float
+r.dynamic_energy_threshold = True # type: bool
+r.dynamic_energy_adjustment_damping = 0.15 # type: float
+r.dynamic_energy_adjustment_ratio = 1.5 # type: float
+r.pause_threshold = 0.8 # type: float
 
 
 
@@ -18,7 +18,7 @@ with sr.Microphone() as mic:
     print(d1.minute)
     print(d1.second)
     
-    audio = r.listen(mic, 10)
+    audio = r.listen(mic, 7)
     print("it has stopped recording")
 
 d2 = dt.datetime.now()
