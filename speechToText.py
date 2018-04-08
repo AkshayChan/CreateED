@@ -14,24 +14,24 @@ r.pause_threshold = 0.8 # type: float
 with sr.Microphone() as mic:                                                                       
     print("Speak:")
     
-    d1 = dt.datetime.now()
-    print(d1.minute)
-    print(d1.second)
+    #d1 = dt.datetime.now()
+    #print(d1.minute)
+    #print(d1.second)
     
     audio = r.listen(mic, 7)
     print("it has stopped recording")
 
-d2 = dt.datetime.now()
-print(d2.minute)
-print(d2.second)
+#d2 = dt.datetime.now()
+#print(d2.minute)
+#print(d2.second)
 
 try:
-    print("You said " + r.recognize_google(audio_data= audio, language = "en-IN"))
+    print(r.recognize_google(audio_data= audio, language = "en-IN"))
 except sr.UnknownValueError:
     print("Could not understand audio")
 except sr.RequestError as e:
     print("Could not request results; {0}".format(e))
 
-d3 = dt.datetime.now()
-print(d3.minute)
-print(d3.second)
+#d3 = dt.datetime.now()
+#print(d3.minute)
+#print(d3.second)
