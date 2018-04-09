@@ -5,11 +5,14 @@ We built CrossCom, which recognises hand gestures for 26 alphabets, 10 letters a
 
 Also, the user can speak to crosscom as there as is a microphone in the camera (we couldn’t get a USB microphone unfortunately to plug into our raspberry pi) and that gets converted to text using the google cloud speech API, and comes out through the speaker behind. 
 
-It is a communication device between somebody who’s deaf and mute, and somebody who’s blind.
+The robot has a webcam and a raspberry pi 7' Touchscreen display. The back of the robot has a rasbperry pi which is wired up to the display and has a USB connection to the webcam and speaker. The screen and raspberry pi are both connected to a power bank which is at the back too. 
+
+It is a simple communication device between somebody who’s deaf and mute, and somebody who’s blind.
+
+
 
 CrossCom won the Accenture Challenge for best use of Machine Learning at the hackathon!
 
 ![alt text](https://github.com/akshayCha/CreateED/blob/master/CrossCom(1).png)
 
-![alt text](https://github.com/akshayCha/CreateED/blob/master/CrossCom(2).png)
 
