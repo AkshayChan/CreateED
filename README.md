@@ -9,7 +9,7 @@ It is a communication device between somebody who’s deaf and mute, and somebod
 
 CrossCom won the Accenture Challenge for best use of Machine Learning at the hackathon!
 
-![alt text] (https://github.com/akshayCha/CreateED/blob/master/CrossCom(1).jpg)
+![alt text](https://github.com/akshayCha/CreateED/blob/master/CrossCom(1).png)
 
-![alt text] (https://github.com/akshayCha/CreateED/blob/master/CrossCom(2).jpg)
+![alt text](https://github.com/akshayCha/CreateED/blob/master/CrossCom(2).png)
 
