@@ -7,6 +7,8 @@ Also, the user can speak to crosscom as there as is a microphone in the camera (
 
 The robot has a webcam and a raspberry pi 7' Touchscreen display. The back of the robot has a rasbperry pi which is wired up to the display and has a USB connection to the webcam and speaker. The screen and raspberry pi are both connected to a power bank which is at the back too. 
 
+Follow the project here : https://devpost.com/software/rebly
+
 It is a simple communication device between somebody who’s deaf and mute, and somebody who’s blind.
 
 
